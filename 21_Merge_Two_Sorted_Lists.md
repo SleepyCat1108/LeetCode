@@ -4,7 +4,7 @@
 ### Description
 
 >**Problem**
->Merge two sorted linked lists and return it as a sorted list. 
+>Merge two sorted linked lists and return it as a sorted list.   
 >The list should be made by splicing together the nodes of the first two lists.
 
 >**Example**
@@ -33,7 +33,7 @@ Output: [0]
 ### Solution 
 * DummyHeadNode with Iteration
 
-Runtime: 4 ms, faster than 83.05% of C online submissions for Merge Two Sorted Lists.
+Runtime: 4 ms, faster than 83.05% of C online submissions for Merge Two Sorted Lists.  
 Memory Usage: 6.2 MB, less than 59.08% of C online submissions for Merge Two Sorted Lists.
 
 ```c
@@ -71,7 +71,7 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 ```
 
 *  Recursion
-Runtime: 5 ms, faster than 9.82% of C online submissions for Merge Two Sorted Lists.
+Runtime: 5 ms, faster than 9.82% of C online submissions for Merge Two Sorted Lists.  
 Memory Usage: 6.2 MB, less than 43.97% of C online submissions for Merge Two Sorted Lists.
 
 ```c
