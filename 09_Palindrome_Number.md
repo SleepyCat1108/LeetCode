@@ -13,7 +13,7 @@ Output: false
 Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
 
 ### Solution
-* First Attemp
+* First Attemp  
 Accepted and it’s faster than 72.15% of C online submissions.  
 However ,the memory usage is  6.1MB, less than 30.37% submissons.
 
@@ -46,7 +46,7 @@ bool isPalindrome(int x){
     return true;   
 }
 ```
-* Second Attemp
+* Second Attemp  
 Accepted ,it beat 26.27% of C online submissions ,which is not good.  
 But its memory usage 5.8MB, less than 94.92% of C online submissions.
 
