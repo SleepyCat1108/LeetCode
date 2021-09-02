@@ -18,7 +18,7 @@ Output: true
 Output: false
 
 
-Runtime:3 ms, faster than 15.67% of C online submissions for Valid Parentheses.
+Runtime:3 ms, faster than 15.67% of C online submissions for Valid Parentheses.  
 Memory Usage: 5.5 MB, less than 99.44% of C online submissions for Valid Parentheses.
 
 
