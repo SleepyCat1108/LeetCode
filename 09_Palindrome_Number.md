@@ -47,7 +47,7 @@ bool isPalindrome(int x){
 }
 ```
 * Second Attemp  
-Accepted ,it beat 26.27% of C online submissions ,which is not good.  
+Accepted ,it beats 26.27% of C online submissions ,which is not good.  
 But its memory usage 5.8MB, less than 94.92% of C online submissions.
 
 We first calculate the range of int32 : -2,147,483,648 to 2,147,483,647.  
