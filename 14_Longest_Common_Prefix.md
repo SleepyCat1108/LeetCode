@@ -102,9 +102,9 @@ char* longestCommonPrefix(char** strs, int strsSize){
 > 致謝  劉宇峻
 
 * Time Complexity :  
-Worst Case :
+Worst Case :  
 ![Image](pic/14_Bestcase.PNG)  
-Best Case :
+Best Case :  
 ![Image](pic/14_Worstcase.PNG)
 
 * Space Complexity：
