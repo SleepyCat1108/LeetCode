@@ -101,7 +101,6 @@ char* longestCommonPrefix(char** strs, int strsSize){
 ### Complexity Analysis 
 > 致謝  劉宇峻
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
 * Time Complexity：
 Worst Case :
 $$
@@ -140,7 +139,7 @@ The maximum number of function stored in stack is $log_2 n$, every function stor
 $O(mlog_2 n)$   (For the case return value of prefix_len is of type char*) 
 
 $O(log_2 n)$   (For the case return value of prefix_len is of type int)
-</script>
+
 
 
 
