@@ -101,38 +101,12 @@ char* longestCommonPrefix(char** strs, int strsSize){
 ### Complexity Analysis 
 > 致謝  劉宇峻
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 * Time Complexity：
 Worst Case :
-$$
-T(n) = 2 T(n/2) + O(m)
-$$
 
-$$
-T(n) = 2 ( 2 T(n/4) + O(m)) + O(m)
-$$
 
-$$
-T(n) = O(m) + 2 O(m) + 4 O(m) + ... 2^k O(m) \quad where \ k = log_2 n
-$$
-
-$$
-T(n) = \frac{1-2^k}{1-2} O(m)
-= (n - 1) O(m) = O(nm)
-$$
 
 Best Case :
-$$
-m = \{ m_1, m_2, m_3, ...,m_n \}
-$$
-
-$$
-O(mn) \rightarrow O(\sum_i m_i)
-$$
-
-$$
-O(\sum_i m_i) \geq O(n\min_i m_i) = O(nm_{min})
-$$
 
 * Space Complexity：
 The maximum number of function stored in stack is $log_2 n$, every function store up to m characters. Therefore, the space complexity is 
