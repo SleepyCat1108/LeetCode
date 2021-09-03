@@ -103,7 +103,7 @@ char* longestCommonPrefix(char** strs, int strsSize){
 
 * Time Complexity :  
 Worst Case :
-![Image]()  
+![Image](pic/worst case.PNG)  
 Best Case :
 ![Image](pic/Bestcase.PNG)
 
