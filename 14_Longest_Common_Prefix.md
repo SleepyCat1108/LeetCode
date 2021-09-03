@@ -101,6 +101,7 @@ char* longestCommonPrefix(char** strs, int strsSize){
 ### Complexity Analysis 
 > 致謝  劉宇峻
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 * Time Complexity：
 Worst Case :
 $$
