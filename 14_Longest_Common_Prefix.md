@@ -103,9 +103,9 @@ char* longestCommonPrefix(char** strs, int strsSize){
 
 * Time Complexity :  
 Worst Case :
-![Image](pic/worst case.PNG)  
+![Image](pic/14_Bestcase.PNG)  
 Best Case :
-![Image](pic/Bestcase.PNG)
+![Image](pic/14_Worstcase.PNG)
 
 * Space Complexity：
 The maximum number of function stored in stack is $log_2 n$, every function store up to m characters. Therefore, the space complexity is 
