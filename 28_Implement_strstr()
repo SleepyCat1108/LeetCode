@@ -1,0 +1,49 @@
+# 28. Implement strstr()
+###### tags: `Leetcode`
+###### Difficulty: easy
+### Description
+
+>**Problem**
+Implement strStr().
+>
+>Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+>
+>We will return 0 when needle is an empty string.
+
+>**Example**
+>1.
+>Input: haystack = "hello", needle = "ll"
+Output: 2
+>2.
+>Input: haystack = "aaaaa", needle = "bba"
+Output: -1
+>3.
+>Input: haystack = "", needle = ""
+Output: 0
+
+
+### Solution 
+
+Runtime: 224 ms, faster than 84.24% of C online submissions for Implement strStr().
+Memory Usage: 6.3 MB, less than 22.21% of C online submissions for Implement strStr().
+```c 
+int strStr(char * haystack, char * needle){
+    if (strcmp(needle,"") == 0)
+        return 0;
+    
+    int needle_len = strlen(needle);
+    int stack_len  = strlen(haystack);
+    char* sub_stack= (char*)malloc(sizeof(char)*(needle_len+1));
+    
+    for (int i = 0 ;i <= stack_len - needle_len ;i++){      
+        if(haystack[i] == needle[0]){      
+            strncpy(sub_stack, haystack+i , needle_len);
+            sub_stack[needle_len] = '\0';        
+            if(strcmp(sub_stack,needle) == 0)
+                return i;
+        }   
+    } 
+    
+    return -1;
+}
+```
