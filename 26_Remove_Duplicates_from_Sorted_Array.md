@@ -14,7 +14,7 @@
 
 >**Example**
 >1.
->Input: nums = [1,1,2]
+>Input: nums = [1,1,2 ]
 Output: 2, nums = [1,2,_ ]
 >2.
 >Input: nums = [0,0,1,1,1,2,2,3,3,4]
